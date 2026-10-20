@@ -1,0 +1,37 @@
+ProjectTrack_LAN
+|
++-- src
+|   +-- projecttrack
+|       +-- client
+|       |   +-- Main.java
+|       |   `-- LanConnection.java
+|       +-- model
+|       |   +-- AppState.java
+|       |   +-- User.java
+|       |   +-- Project.java
+|       |   +-- Ticket.java
+|       |   `-- Comment.java
+|       +-- net
+|       |   +-- Request.java
+|       |   `-- Message.java
+|       `-- server
+|           +-- ProjectTrackServer.java
+|           +-- ServerMain.java
+|           `-- SmokeTestMain.java
++-- data
++-- dist
++-- resources
+|   `-- ProjectTrack.ico
++-- docs
++-- build.bat
++-- run_server.bat
++-- run_projecttrack.bat
++-- run_smoke_test.bat
++-- allow_firewall_5050.bat
++-- README.md
++-- NETWORK_SETUP.md
++-- ARCHITECTURE.md
++-- CODE_EXPLANATION.md
++-- TESTING.md
++-- PROJECT_SCOPE.md
+`-- PROJECT_STRUCTURE.txt
